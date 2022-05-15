@@ -6,6 +6,10 @@
     "engines": {
         "vscode": "^1.20.0"
     },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Gerrnperl/vscode-soft-color-theme"
+	},
     "categories": [
         "Themes"
     ],
