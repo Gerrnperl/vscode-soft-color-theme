@@ -1,0 +1,49 @@
+{
+    "name": "soft-color-theme",
+    "displayName": "Soft Color Theme",
+    "description": "A color theme with soft, pleasing colors",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+	"publisher": "gerrnperl",
+	"icon": "icon.png",
+	"keywords": [
+        "soft",
+        "relax",
+        "ralaxing",
+        "fluent",
+        "eye",
+		"flat",
+		"theme",
+		"light",
+        "dark"
+	],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Soft Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/soft-dark-color-theme.json"
+            },
+            {
+                "label": "Soft Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/soft-light-color-theme.json"
+            },
+            {
+                "label": "Soft Dark Theme 2",
+                "uiTheme": "vs-dark",
+                "path": "./themes/soft-dark-2-color-theme.json"
+            },
+            {
+                "label": "Soft Light Theme 2",
+                "uiTheme": "vs",
+                "path": "./themes/soft-light-2-color-theme.json"
+            }
+        ]
+    }
+}
